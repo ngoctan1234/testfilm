@@ -7,9 +7,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 function App() {
     return (
         <div className="App">
-            
+            ds
             <Router>
-               <Link to="/page1">page 1</Link>
+                <Link to="/page1">page 1</Link>
                 <Link to="/page2">page 2</Link>
                 <Link to="/page3">page 3</Link>
                 <Routes>

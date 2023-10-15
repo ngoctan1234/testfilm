@@ -8,6 +8,7 @@ export default function List() {
     const toggle = () => setIsOpen(!isOpen);
     return (
         <div>
+            lidt
             <Navbar expand="md">
                 <NavbarBrand href="/">reactstrap</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
